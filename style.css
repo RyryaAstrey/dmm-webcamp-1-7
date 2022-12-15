@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  width: 100%;
+  height: 400px;
+  background-image: url(img/mv.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.heading{
+  padding: 20px;
+  color: #696969;
+}
+
+main{
+  margin-top: 20px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.blog-item{
+  width: 840px;
+  color: #696969;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #a9a9a9;
+}
